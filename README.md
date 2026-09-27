@@ -1,4 +1,4 @@
-[Website](https://nevdelap.com) · [LinkedIn](https://www.linkedin.com/in/nevdelap) · [GitHub](https://github.com/nevdelap)
+[Website](https://nevdelap.com) · [GitHub](https://github.com/nevdelap) · [LinkedIn](https://www.linkedin.com/in/nevdelap)
 
 ## Quote
 
