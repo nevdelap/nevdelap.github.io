@@ -6,12 +6,13 @@ Edit `README.md` to change the profile links, quote, or pinned repository list. 
 
 ## Save and push your changes
 
-From the repository directory, stage the files you changed, commit them, and push to `main`:
+From the repository directory, edit the files and use Jujutsu to describe and push the change:
 
 ```sh
-git add README.md docs/how_to_update.md
-git commit -m "Describe README update process"
-git push origin main
+jj status
+jj describe -m "Update profile README"
+jj bookmark set main -r @
+jj git push --bookmark main
 ```
 
 This repository currently contains the README and this guide, but no website source or publishing configuration. Changes pushed here update the GitHub repository; publishing changes to [nevdelap.com](https://nevdelap.com) depends on its separate setup.
